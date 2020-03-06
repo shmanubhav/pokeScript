@@ -2,8 +2,8 @@ from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 import sys, collections, time
 
-usr = 'cowmcgee'
-pas = 'cowmcgee'
+usr = 'username'
+pas = 'password'
 browser = webdriver.Chrome()
 
 def login(usr,pas):
